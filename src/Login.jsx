@@ -1,10 +1,10 @@
 import { TwitterAuthProvider } from "firebase/auth";
-import { getAuth, signInWithRedirect } from "firebase/auth";
+import { signInWithRedirect } from "firebase/auth";
+import { auth } from '../api/firebase.js';
 
 const Login = () => {
     const signInX = () => {
         const provider = new TwitterAuthProvider();
-        const auth = getAuth();
         signInWithRedirect(auth, provider);
     };
 
