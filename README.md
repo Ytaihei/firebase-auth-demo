@@ -1,8 +1,11 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# コーディング試験2
+* firebase auth demo というフォルダ名でreactの環境構築を行なってください
+* firebaseのauthを利用してtwitter認証を開発してください
+* 必ずログインボタンとログアウトボタンを作り、ログイン時はログアウトボタンと名前、アイコン、ログアウト時はログインボタンが表示されるようにしてください
+* ホスティングはvercelで行なってください
+* 必ずgitで管理してください
+## 使用技術
+* React
+* firebase
+* Vite
+* Vercel

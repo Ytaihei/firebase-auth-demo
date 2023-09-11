@@ -24,6 +24,7 @@ function App() {
     <>
       {user ? <Logout /> : <Login />}
       {user && <p>{user.displayName}</p>}
+      {user && <img src={user.photoURL} alt=""/>}
     </>
   );
 }
